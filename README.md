@@ -4,7 +4,7 @@
 
 This week's Challenge required me to modify the starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. Below, in the Method section, I will outline the way my script works to generate the password based on the selected criteria. 
 
-To view this code in action please click the following link: 
+To view this code in action please click the following link: https://dallassybrowsky.github.io/PasswordGenerator/
 
 ## User Story
 
@@ -68,4 +68,6 @@ If you want to support or have questions on the page, you can contact me at dall
 
 ## License
 
-Please see the repo for the License information at 
+Please see the repo for the License information at: https://github.com/DallasSybrowsky/PasswordGenerator
+
+The live page can be accessed at: https://dallassybrowsky.github.io/PasswordGenerator/

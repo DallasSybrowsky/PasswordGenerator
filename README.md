@@ -1,8 +1,10 @@
-# 03 JavaScript: Password Generator
+# Homework 3 JavaScript: Password Generator
 
 ## Background
 
-This week's Challenge required me to modify the starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. Below, in the Method section, I will outline the way my script works to generate the password based on the selected criteria.
+This week's Challenge required me to modify the starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. Below, in the Method section, I will outline the way my script works to generate the password based on the selected criteria. 
+
+To view this code in action please click the following link: 
 
 ## User Story
 
@@ -51,9 +53,19 @@ I used the supplied HTML and CSS framework, and built a JavaScript file that per
 6. The user is asked if they would like to use special characters in their password.
     a. If they click OK, the special characters are copied from an array of special character and added to the contents of the pwChoices array.
     b. If the user clicks Cancel, the special characters are not added to the pwChoices array.
-7. The function then starts into a for loop.
+7. The function validates that at least one criteria (lower case, upper case, numbers, special characters) has been selected. If not an alert pops up and the 
+    function loops back to the beginning.
+8. The function then starts into a for loop.
     a. The function then generates random numbers and utilizes the generated random number to choose a character based on its index in the array.
     b. The function repeats until the password length is equal in length to the chosen character length of the password in item 1.
     c .The randomly generated characters are added to an empty array called pwArray.
-8. The characters in the pwArray are then joined together into a string that is then input into a variable called noCommas.
-9. The noCommas variable is then used as the output for the provided writePassword function which outputs the generated password to the HTML.  
+9. The characters in the pwArray are then joined together into a string that is then input into a variable called noCommas.
+10. The noCommas variable is then used as the output for the provided writePassword function which outputs the generated password to the HTML.
+
+## Support
+
+If you want to support or have questions on the page, you can contact me at dallas.sybrowsky@gmail.com.
+
+## License
+
+Please see the repo for the License information at 

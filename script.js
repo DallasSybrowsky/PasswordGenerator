@@ -27,6 +27,8 @@ var pwArray = [];
 var password = "";
 // Variable for use in while loop 
 var validEntry = false;
+
+var promptLength;
 // Returns a random password (Line below was class provided)
 function generatePassword() {
   validEntry = false;
@@ -38,7 +40,7 @@ function generatePassword() {
       validEntry = false;
     } else {
       validEntry = true;
-      prompt = passwordLength;
+      // promptLength = passwordLength;
     }
   }
   // Logs result of prompt (for debugging)
@@ -79,6 +81,14 @@ function generatePassword() {
   }
   console.log(pwChoices);
   
+  if (useLower === false && useUpper === false && useNumber === false && useSpecial === false) {
+    alert("You must choose at least one password criteria.");
+    validEntry = false;
+    generatePassword();
+  } else {
+    validEntry = true;
+  };
+
   // Code to generate the password
   for (var i = 0; i < passwordLength; i++) {
     var randomChar = pwChoices[Math.floor(Math.random() * pwChoices.length)];

@@ -64,7 +64,7 @@ I used the supplied HTML and CSS framework, and built a JavaScript file that per
 
 ## Support
 
-If you want to support or have questions on the page, you can contact me at dallas.sybrowsky@gmail.com.
+If you need support or have questions about the page, please contact me at dallas.sybrowsky@gmail.com.
 
 ## License
 

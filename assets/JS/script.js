@@ -31,6 +31,8 @@ var validEntry = false;
 var promptLength;
 // Returns a random password (Line below was class provided)
 function generatePassword() {
+  pwArray = [];
+  pwChoices = [];
   validEntry = false;
   // Sets password character length based on prompt
   while (validEntry === false) {
